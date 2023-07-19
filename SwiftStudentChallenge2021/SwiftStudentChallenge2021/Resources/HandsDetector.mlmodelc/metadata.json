@@ -1,0 +1,128 @@
+[
+  {
+    "shortDescription" : "6-bit per quantized weight, using linear.",
+    "metadataOutputVersion" : "3.0",
+    "outputSchema" : [
+      {
+        "dataType" : "Double",
+        "hasShapeFlexibility" : "1",
+        "isOptional" : "0",
+        "shapeFlexibility" : "0... × 6",
+        "shapeRange" : "[[0, -1], [6, 6]]",
+        "formattedType" : "MultiArray (Double 0 × 6)",
+        "type" : "MultiArray",
+        "shape" : "[0, 6]",
+        "name" : "confidence",
+        "shortDescription" : "Boxes × Class confidence (see user-defined metadata \"classes\")"
+      },
+      {
+        "dataType" : "Double",
+        "hasShapeFlexibility" : "1",
+        "isOptional" : "0",
+        "shapeFlexibility" : "0... × 4",
+        "shapeRange" : "[[0, -1], [4, 4]]",
+        "formattedType" : "MultiArray (Double 0 × 4)",
+        "type" : "MultiArray",
+        "shape" : "[0, 4]",
+        "name" : "coordinates",
+        "shortDescription" : "Boxes × [x, y, width, height] (relative to image size)"
+      }
+    ],
+    "version" : "",
+    "modelParameters" : [
+
+    ],
+    "author" : "Edoardo de Cal",
+    "specificationVersion" : 3,
+    "license" : "",
+    "isUpdatable" : "0",
+    "availability" : {
+      "macOS" : "10.14",
+      "tvOS" : "12.0",
+      "watchOS" : "5.0",
+      "iOS" : "12.0",
+      "macCatalyst" : "12.0"
+    },
+    "modelType" : {
+      "name" : "MLModelType_pipeline",
+      "structure" : [
+        {
+          "name" : "MLModelType_neuralNetwork"
+        },
+        {
+          "name" : "MLModelType_nonMaximumSuppression"
+        }
+      ]
+    },
+    "inputSchema" : [
+      {
+        "height" : "416",
+        "colorspace" : "RGB",
+        "isOptional" : "0",
+        "width" : "416",
+        "isColor" : "1",
+        "formattedType" : "Image (Color 416 × 416)",
+        "hasSizeFlexibility" : "0",
+        "type" : "Image",
+        "shortDescription" : "Input image",
+        "name" : "image"
+      },
+      {
+        "isOptional" : "0",
+        "formattedType" : "Double",
+        "type" : "Double",
+        "name" : "iouThreshold",
+        "shortDescription" : "(optional) IOU Threshold override (default: 0.45)"
+      },
+      {
+        "isOptional" : "0",
+        "formattedType" : "Double",
+        "type" : "Double",
+        "name" : "confidenceThreshold",
+        "shortDescription" : "(optional) Confidence Threshold override (default: 0.15)"
+      }
+    ],
+    "classLabels" : [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "generatedClassName" : "HandsDetector",
+    "userDefinedMetadata" : {
+      "version" : "1",
+      "training_iterations" : "11000",
+      "classes" : "0,1,2,3,4,5",
+      "feature" : "image",
+      "non_maximum_suppression_threshold" : "0.45",
+      "include_non_maximum_suppression" : "True",
+      "type" : "ObjectDetector",
+      "iou_threshold" : "0.45",
+      "confidence_threshold" : "0.15",
+      "annotations" : "annotations",
+      "max_iterations" : "0",
+      "turicreate_version" : "5.2.1",
+      "model" : "darknet-yolo",
+      "coremltoolsVersion" : "3.2"
+    },
+    "neuralNetworkLayerTypeHistogram" : {
+      "Concat" : 2,
+      "Convolution" : 9,
+      "ActivationSigmoid" : 2,
+      "Scale" : 2,
+      "PoolingMax" : 6,
+      "Softmax" : 1,
+      "Reshape" : 5,
+      "Permute" : 3,
+      "Add" : 1,
+      "Multiply" : 2,
+      "Slice" : 4,
+      "ActivationLeakyReLU" : 8,
+      "LoadConstant" : 2,
+      "UnaryExp" : 1
+    },
+    "method" : "predict"
+  }
+]

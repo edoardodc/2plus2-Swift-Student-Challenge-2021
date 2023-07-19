@@ -1,0 +1,81 @@
+[
+  {
+    "shortDescription" : "Simple covnet model to classify hand written digits trainied on the MNIST dataset",
+    "metadataOutputVersion" : "3.0",
+    "outputSchema" : [
+      {
+        "isOptional" : "0",
+        "keyType" : "String",
+        "formattedType" : "Dictionary (String → Double)",
+        "type" : "Dictionary",
+        "name" : "output",
+        "shortDescription" : "Predicted digit"
+      },
+      {
+        "isOptional" : "0",
+        "formattedType" : "String",
+        "type" : "String",
+        "name" : "classLabel",
+        "shortDescription" : ""
+      }
+    ],
+    "version" : "",
+    "modelParameters" : [
+
+    ],
+    "author" : "Edoardo de Cal",
+    "specificationVersion" : 1,
+    "license" : "MIT",
+    "isUpdatable" : "0",
+    "availability" : {
+      "macOS" : "10.13",
+      "tvOS" : "11.0",
+      "watchOS" : "4.0",
+      "iOS" : "11.0",
+      "macCatalyst" : "11.0"
+    },
+    "modelType" : {
+      "name" : "MLModelType_neuralNetworkClassifier"
+    },
+    "inputSchema" : [
+      {
+        "height" : "28",
+        "colorspace" : "Grayscale",
+        "isOptional" : "0",
+        "width" : "28",
+        "isColor" : "0",
+        "formattedType" : "Image (Grayscale 28 × 28)",
+        "hasSizeFlexibility" : "0",
+        "type" : "Image",
+        "shortDescription" : "Grayscale image of a hand written digit",
+        "name" : "image"
+      }
+    ],
+    "classLabels" : [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "generatedClassName" : "MNIST",
+    "userDefinedMetadata" : {
+      "com.github.apple.coremltools.version" : "4.1",
+      "com.github.apple.coremltools.source" : "keras==2.3.1"
+    },
+    "neuralNetworkLayerTypeHistogram" : {
+      "PoolingMax" : 3,
+      "Convolution" : 3,
+      "InnerProduct" : 2,
+      "Softmax" : 1,
+      "ActivationReLU" : 4,
+      "Flatten" : 1
+    },
+    "method" : "predict"
+  }
+]
