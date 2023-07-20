@@ -56,6 +56,7 @@
 		1123BCF0262CBFCC007CE205 /* BackgroundScoreScene.reality in Resources */ = {isa = PBXBuildFile; fileRef = 1123BBDA2629F15A007CE205 /* BackgroundScoreScene.reality */; };
 		113BBEE82A670A4C00E6D68C /* HeartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113BBEE72A670A4C00E6D68C /* HeartsView.swift */; };
 		113BBEEA2A670DB500E6D68C /* BestScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113BBEE92A670DB500E6D68C /* BestScoreView.swift */; };
+		11DF78B02A693F6600376E9C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11DF78AF2A693F6600376E9C /* Launch Screen.storyboard */; };
 		11FAE22A2A6843F200D44CDA /* ButtonAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FAE2292A6843F200D44CDA /* ButtonAudio.swift */; };
 /* End PBXBuildFile section */
 
@@ -132,6 +133,7 @@
 		1123BBFC2629F1BC007CE205 /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
 		113BBEE72A670A4C00E6D68C /* HeartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartsView.swift; sourceTree = "<group>"; };
 		113BBEE92A670DB500E6D68C /* BestScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestScoreView.swift; sourceTree = "<group>"; };
+		11DF78AF2A693F6600376E9C /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		11FAE2292A6843F200D44CDA /* ButtonAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAudio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -194,6 +196,7 @@
 				1123BB0B2629ED08007CE205 /* SceneDelegate.swift */,
 				1123BB122629ED21007CE205 /* Assets.xcassets */,
 				1123BB172629ED21007CE205 /* Info.plist */,
+				11DF78AF2A693F6600376E9C /* Launch Screen.storyboard */,
 			);
 			path = SwiftStudentChallenge2021;
 			sourceTree = "<group>";
@@ -419,6 +422,7 @@
 				1123BB132629ED21007CE205 /* Assets.xcassets in Resources */,
 				1123BBED2629F170007CE205 /* UU-Audio.mp3 in Resources */,
 				1123BBE12629F164007CE205 /* MNIST.mlmodelc in Resources */,
+				11DF78B02A693F6600376E9C /* Launch Screen.storyboard in Resources */,
 				1123BBDC2629F15F007CE205 /* HandsDetector.mlmodelc in Resources */,
 				1123BB112629ED08007CE205 /* Main.storyboard in Resources */,
 				1123BCEC262CBFC8007CE205 /* BackgroundExpressionScene.reality in Resources */,
