@@ -1,8 +1,6 @@
 # 2 plus 2: Learn math with AI
 [![Build status](https://build.appcenter.ms/v0.1/apps/e0928fc1-253b-4e65-81cd-01e013fd6c0d/branches/master/badge)](https://appcenter.ms)
 
-![](cover.png)
-
 * Written in Swift
 * Powered by ComputerVision, ARKit, UIKit and SwiftUI
 * Auto Layout was written entirely with code
@@ -17,3 +15,6 @@ While this is designed to be an effortless experience, there’s a lot of techno
 
 ## Motivation
 As a kid with dyslexia, I have struggled to learn Math and decided to build a playground book to support children with their learning in these challenging times. This playground book uses advanced features such as handwriting recognition and Machine Learning to create an interactive experience for kids to learn Math. In other words, this playground book is what I wish I had when I was back in elementary school. 
+
+
+![](cover.png)
