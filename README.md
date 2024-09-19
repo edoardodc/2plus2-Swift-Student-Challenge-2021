@@ -1,7 +1,7 @@
 # 2 plus 2: Learn math with AI
 [![Build status](https://build.appcenter.ms/v0.1/apps/e0928fc1-253b-4e65-81cd-01e013fd6c0d/branches/master/badge)](https://appcenter.ms)
 
-2 plus 2 is an iOS app that makes learning math funny anything around you using your phone camera, machine learning, and augmented reality. 
+
 
 * Written in Swift
 * Powered by ComputerVision, ARKit, UIKit and SwiftUI
