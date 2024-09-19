@@ -4,6 +4,7 @@
 2 plus 2 is an interactive iOS playground book that helps children learn math using handwriting recognition, gesture detection, and augmented reality.
 
 * Written in Swift
+* Awarded by Apple for the Swift Student Challenge 2021
 * Powered by ComputerVision, ARKit, UIKit and SwiftUI
 * Auto Layout was written entirely with code
 
