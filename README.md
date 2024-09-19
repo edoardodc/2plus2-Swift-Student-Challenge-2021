@@ -14,3 +14,4 @@ While this is designed to be an effortless experience, there’s a lot of techno
 
 
 ## Motivation
+As a kid with dyslexia, I have struggled to learn Math and decided to build a playground book to support children with their learning in these challenging times. This playground book uses advanced features such as handwriting recognition and Machine Learning to create an interactive experience for kids to learn Math. In other words, this playground book is what I wish I had when I was back in elementary school. 
