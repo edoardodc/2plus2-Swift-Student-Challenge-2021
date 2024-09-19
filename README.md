@@ -5,7 +5,7 @@
 * Powered by ComputerVision, ARKit, UIKit and SwiftUI
 * Auto Layout was written entirely with code
 
-[](demo.gif)
+![](demo.gif)
 
 ## Technical Details
 I designed and built the first page in SwiftUI to welcome users to the playground book. It’s important for me to create a great user experience where kids feel welcomed and are introduced to the experience. As you open the first page, you’ll hear an upbeat melody that invites you to start the playground experience. The second page displays some math questions that users can answer by drawing a number on the keypad or by showing their hands to the camera. Finally, the third page introduces a twist with Apple’s augmented reality framework ARKit: users are invited to answer math questions in the real world for an immersive experience. I love adding a personal touch to my projects, such as mimicking the texture of the paper to invite the kids to write on the screen and by reproducing self-recorded sound effects to congratulate the user on getting the answer right. What’s more, if the kid seems to struggle with a certain question, the playground book will skip it to ensure a frustration-free experience. 
